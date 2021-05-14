@@ -17,10 +17,11 @@ public class Result {
 		biology = num3;
 		chemistry = num2;
 		physics = num1;
+		total = num1 + num2 + num3;
 		int exam1 = physics;
 		int exam2 = chemistry;
 		int exam3 = biology;
-		int result = exam1 + exam2 + exam3;
+		int result = (int) total;
 		
 		System.out.println("Exam 1 = " + exam1 + ", Exam 2 = " + exam2 + ", Exam 3 = " + exam3);
 		System.out.println("Total Score = " + result);
