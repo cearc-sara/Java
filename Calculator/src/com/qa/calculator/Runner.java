@@ -6,7 +6,9 @@ public class Runner {
 		
 		int result = Calculator.add(6, 9);
 		
-		System.out.println(result);
+		System.out.println("The add result = " + result);
+		
+		Result.method2(150,  140,  120);
 
 	}
 
