@@ -3,8 +3,12 @@ package com.qa.helloworld;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		printMessage("Hello World!");
 
+	}
+	
+	public static void printMessage(String message) {
+		System.out.println(message);
 	}
 
 }
