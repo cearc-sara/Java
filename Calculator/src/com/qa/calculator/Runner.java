@@ -8,7 +8,7 @@ public class Runner {
 		
 		System.out.println("The add result = " + result);
 		
-		Result.method2(150,  140,  120);
+		Result.method2(150, 140, 120);
 
 	}
 

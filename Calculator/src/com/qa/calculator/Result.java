@@ -28,10 +28,9 @@ public class Result {
 	public static int method2(int num1, int num2, int num3) {
 		percentage = (method1(num1, num2, num3) * 100) / 450;
 		
-		int result = (int) percentage;
 		
-		System.out.println("The total percentage of all the scores is " + result + "%");
-		return result;
+		System.out.println("The total percentage of all the scores is " + (int) percentage + "%");
+		return (int) percentage;
 	}
 		
 
