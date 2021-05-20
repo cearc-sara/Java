@@ -1,4 +1,4 @@
-package com.qa.calculator;
+package com.qa.javabasics;
 
 public class FlowChart {
 	
