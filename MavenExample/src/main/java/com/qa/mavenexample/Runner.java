@@ -1,9 +1,10 @@
-package com.qa.garage;
+package com.qa.mavenexample;
 
 public class Runner {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
+
 	}
 
 }
